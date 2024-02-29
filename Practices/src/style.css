@@ -1,0 +1,55 @@
+body * 
+{
+    border:2px solid;
+}
+
+header 
+{
+  background: lightblue;
+}
+
+nav 
+{
+  background: lightblue;
+}
+
+section 
+{
+  background: lightblue;
+  display: flex;
+  justify-content: space-around;
+}
+
+article 
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+article .card 
+{
+    height: 250px;
+    position: relative;
+}
+
+article .card p 
+{
+    position: absolute;
+    top:50%;
+    left:30%;
+    margin: 0;
+    background: rgba(0,0,0,0.45);
+    color: #fff;
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: bold;
+}
+article img 
+{
+    height: 100%;
+}
+
+footer 
+{
+  background: lightblue;
+}

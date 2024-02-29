@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.card{
+  border: 2px solid rgb(231, 231, 231);
+  padding: 15px;
+  border-radius: 10px;
+  width: 800px;
+  margin-top: 40px;
+}
+.card:hover{
+  border: 2px solid rgb(201, 226, 245);
+  background-color: rgb(240, 246, 255);
+  box-shadow: 0 0 5px rgb(201, 226, 245) ;
+
+}
+.card-container,.Title,.location,.rating,.rooms{
+  display: flex;
+}
+.img{
+  width: 250px;
+}
+img{
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card-container{
+  gap: 20px;
+}
+.details{
+  width: 100%;
+}
+.Title{
+  justify-content: space-between;
+}
+.location{
+  gap: 10px;
+  font-size: 12px;
+}
+.rating{
+  gap: 8px;
+  cursor: pointer;
+}
+.review p,.room-detail p,.rate p{
+  font-size: 12px;
+}
+.rooms{
+ justify-content: space-between;
+ margin-top: 30px;
+}
+.rate{
+  text-align: end;
+}
+h3{
+  font-size: 20px;
+  color: rgb(0, 108, 228);
+  cursor: pointer;
+}
+h4{
+  font-size: 16px;
+  font-weight: 600;
+}
+.rate button{
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: rgb(0, 108, 228);
+  color: aliceblue;
+  border: none;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.location p{
+  color: rgb(0, 108, 228);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.location p+p+p{
+  color: black;
+  text-decoration: none;
+  cursor: text;
+}
+.box{
+  padding: 5px;
+  background-color: rgb(0, 90, 193);
+  color: aliceblue;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.rate h3{
+  color: black;
+}
+.rate button:hover{
+  background-color: rgb(0, 59, 149);
+}
+.htname h3:hover{
+  color: black;
+}
